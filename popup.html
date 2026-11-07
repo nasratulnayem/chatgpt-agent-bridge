@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ChatGPT Bridge</title>
+  <style>
+    body {
+      width: 320px;
+      margin: 0;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #0d0f17;
+      color: #f1f5f9;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    .title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+    }
+    .badge {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 9999px;
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .status-row {
+      font-size: 12px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      color: #94a3b8;
+    }
+    .status-val {
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+    .btn {
+      width: 100%;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      background: #10b981;
+      color: #022c22;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: #34d399;
+    }
+    .footer {
+      margin-top: 14px;
+      font-size: 11px;
+      color: #64748b;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span class="title">ChatGPT Agent Bridge</span>
+    <span class="badge" id="status-badge">Connected</span>
+  </div>
+  <div class="status-row">
+    <span>Antigravity Cortex:</span>
+    <span class="status-val" id="cortex-val">Listening (3456)</span>
+  </div>
+  <div class="status-row">
+    <span>Active ChatGPT Tab:</span>
+    <span class="status-val" id="tab-val">Ready</span>
+  </div>
+  <button class="btn" id="open-chatgpt">Open / Focus ChatGPT</button>
+  <div class="footer">Antigravity AI Agent Bridge v1.0.0</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

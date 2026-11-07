@@ -1,0 +1,54 @@
+{
+  "name": "@codex.nayem/chatgpt-agent-bridge",
+  "version": "1.0.0",
+  "description": "Production-grade Model Context Protocol (MCP) daemon & Chrome Extension bridge that connects AI Agents (Antigravity Cortex, Claude, Cursor) to ChatGPT Web for automated chat, image generation, visual editing, and asset pipelines.",
+  "main": "mcp/server.js",
+  "bin": {
+    "chatgpt-agent-bridge": "./bin/cli.js"
+  },
+  "type": "module",
+  "files": [
+    "bin",
+    "mcp",
+    "manifest.json",
+    "background.js",
+    "content.js",
+    "popup.html",
+    "popup.js",
+    "icons",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/cli.js",
+    "bridge": "node mcp/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "chatgpt",
+    "chatgpt-web",
+    "ai-agent",
+    "antigravity",
+    "chrome-extension",
+    "image-generation",
+    "dalle",
+    "automation",
+    "ai-bridge",
+    "claude",
+    "cursor"
+  ],
+  "author": {
+    "name": "Nasratul Nayem",
+    "email": "devnayem30@gmail.com",
+    "url": "https://nasratulnayem.github.io"
+  },
+  "homepage": "https://nasratulnayem.github.io/tools/chatgpt-agent-bridge/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasratulnayem/chatgpt-agent-bridge.git"
+  },
+  "license": "Commercial",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
