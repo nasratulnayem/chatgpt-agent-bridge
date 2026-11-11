@@ -1,6 +1,6 @@
 # ChatGPT Agent Bridge
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/nasratulnayem/chatgpt-agent-bridge)](https://m8ven.ai/mcp/nasratulnayem/chatgpt-agent-bridge?s=readme)
+[![M8ven Score](https://m8ven.ai/badge/mcp/nasratulnayem-chatgpt-agent-bridge-11t9l3?v=1f6fbb9d8a8772449dd5c58717fff343)](https://m8ven.ai/mcp/nasratulnayem-chatgpt-agent-bridge-11t9l3?s=readme)
 
 > Connect your local AI coding agents directly to your open ChatGPT Web session. No OpenAI API keys, no per-token charges, and no manual copy-pasting.
 
