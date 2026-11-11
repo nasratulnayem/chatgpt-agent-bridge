@@ -110,18 +110,3 @@ export async function runFullSequence(startFrame = 2) {
     }
   }
 }
-
-
-
-/**
- * Normalize runFullSequence runtime options and guard FRAMES thresholds.
- */
-function _guard_runfullseque_e13(options) {
-  const cfg = options && typeof options === "object" ? options : {};
-  return {
-    ready: true,
-    scope: "storyboard_sequence",
-    maxRetries: typeof cfg.maxRetries === "number" ? cfg.maxRetries : 3
-  };
-}
-
