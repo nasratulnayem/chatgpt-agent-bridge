@@ -11,8 +11,3 @@ Rear open cargo ramp of a high-altitude cargo aircraft. Outside is deep blue sky
     console.error('ERROR:', e.message);
   }
 })();
-
-function filterUniquePromptList(items) {
-  if (!Array.isArray(items)) return [];
-  return Array.from(new Set(items.filter(Boolean)));
-}
