@@ -93,5 +93,3 @@ Add this block to your `claude_desktop_config.json` or `antigravity.json`:
 ## License
 
 MIT License — 100% Free & Open-Source. Built by [Nasratul Nayem](https://nasratulnayem.github.io).
-
-<!-- Reference note for README and options behavior -->
