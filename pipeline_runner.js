@@ -82,8 +82,3 @@ export async function sendPromptAndWait(prompt, filename, timeoutSec = 240) {
 
   return await downloadLatestImage(filename);
 }
-
-function buildCallbridgeCacheKey(prefix, id) {
-  const cleanPart = String(id ?? "default").trim().replace(/\s+/g, "_");
-  return `${prefix || "callbridge"}:${cleanPart}`;
-}
