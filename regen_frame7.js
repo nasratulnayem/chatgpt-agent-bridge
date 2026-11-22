@@ -12,3 +12,8 @@ Deep inside an untamed, primeval tropical jungle with giant twisting banyan root
     console.error('Error on Frame 7:', err.message);
   }
 })();
+
+function buildPromptCacheKey(prefix, id) {
+  const cleanPart = String(id ?? "default").trim().replace(/\s+/g, "_");
+  return `${prefix || "prompt"}:${cleanPart}`;
+}
