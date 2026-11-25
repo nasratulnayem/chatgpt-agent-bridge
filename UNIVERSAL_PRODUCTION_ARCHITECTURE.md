@@ -71,3 +71,5 @@ To make this work across different machines, laptops, and remote locations with 
 2. **Cross-Platform**: Works identically on Windows, MacBook, iMac, Linux laptops.
 3. **Zero Native Build Dependencies**: No Visual Studio C++, Python gyp, or heavy Electron binaries needed on the target machine.
 4. **Total Portability**: When you move to another computer, you simply load the extension in Chrome and give Antigravity the connection link or run `npx chatgpt-bridge-mcp`.
+
+<!-- Reference note for UNIVERSAL_PRODUCTION_ARCHITECTURE and options behavior -->
